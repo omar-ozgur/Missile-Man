@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 53d5dccef787c7d44985420af40b525d
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - arrowPivot: {instanceID: 0}
+  - arrow: {instanceID: 0}
+  - barPivot: {instanceID: 0}
+  - bar: {instanceID: 0}
+  - barBackground: {instanceID: 0}
+  - audio1: {fileID: 8300000, guid: e98fa4352823141448d643f19a37cbe8, type: 3}
+  - audio2: {fileID: 8300000, guid: ccb4c595f3ec2384f891bbc0cc5dd430, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

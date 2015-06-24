@@ -1,0 +1,51 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp-firstpass.dll
+-r:"D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:Assets/Plugins/OpenIAB_W8Plugin.dll
+-r:"D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll"
+-define:UNITY_ANDROID
+-define:ENABLE_MICROPHONE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_AUDIO_FMOD
+-define:ENABLE_MONO
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_GENERICS
+-define:ENABLE_SUBSTANCE
+-define:INCLUDE_WP8SUPPORT
+-define:ENABLE_WWW
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_WEBCAM
+-define:INCLUDE_METROSUPPORT
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_NETWORK
+-define:ENABLE_PHYSICS
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:UNITY_ANDROID_API
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_SHADOWS
+-define:ENABLE_AUDIO
+-define:ENABLE_NAVMESH_CARVING
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:UNITY_4_3_4
+-define:UNITY_4_3
+-define:ENABLE_PROFILER
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_WIN
+Assets/Plugins/OpenIAB/Android/OpenIAB_Android.cs
+Assets/Plugins/OpenIAB/IOpenIAB.cs
+Assets/Plugins/OpenIAB/Inventory.cs
+Assets/Plugins/OpenIAB/JSON.cs
+Assets/Plugins/OpenIAB/OpenIAB.cs
+Assets/Plugins/OpenIAB/OpenIABEventManager.cs
+Assets/Plugins/OpenIAB/Options.cs
+Assets/Plugins/OpenIAB/OptionsVerifyMode.cs
+Assets/Plugins/OpenIAB/Purchase.cs
+Assets/Plugins/OpenIAB/SkuDetails.cs
+Assets/Plugins/OpenIAB/WP8/OpenIAB_WP8.cs
+Assets/Plugins/OpenIAB/iOS/OpenIAB_iOS.cs
+-r:"D:/Program Files (x86)/Unity/Editor/Data/Mono\lib/mono/unity\System.Runtime.Serialization.dll"
+-r:"D:/Program Files (x86)/Unity/Editor/Data/Mono\lib/mono/unity\System.Xml.Linq.dll"

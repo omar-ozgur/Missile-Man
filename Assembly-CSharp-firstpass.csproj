@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{6BCF1753-8618-A6C0-7F1D-4322E3AED478}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\OpenIAB\Android\OpenIAB_Android.cs" />
+     <Compile Include="Assets\Plugins\OpenIAB\IOpenIAB.cs" />
+     <Compile Include="Assets\Plugins\OpenIAB\Inventory.cs" />
+     <Compile Include="Assets\Plugins\OpenIAB\JSON.cs" />
+     <Compile Include="Assets\Plugins\OpenIAB\OpenIAB.cs" />
+     <Compile Include="Assets\Plugins\OpenIAB\OpenIABEventManager.cs" />
+     <Compile Include="Assets\Plugins\OpenIAB\Options.cs" />
+     <Compile Include="Assets\Plugins\OpenIAB\OptionsVerifyMode.cs" />
+     <Compile Include="Assets\Plugins\OpenIAB\Purchase.cs" />
+     <Compile Include="Assets\Plugins\OpenIAB\SkuDetails.cs" />
+     <Compile Include="Assets\Plugins\OpenIAB\WP8\OpenIAB_WP8.cs" />
+     <Compile Include="Assets\Plugins\OpenIAB\iOS\OpenIAB_iOS.cs" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-uk\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\colors.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\common_signin_btn_text_dark.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fa\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-nb\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-nl\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_text_light.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rTW\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-da\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ja\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-bg\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rHK\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_text_dark.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lo-rLA\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\common_signin_btn_text_light.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lt\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-cs\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_icon_dark.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\version.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ru\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-af\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hy-rAM\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\proguard.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt-rPT\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt-rBR\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sv\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hr\strings.xml" />
+     <None Include="Assets\Sounds\Readme.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ar\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\ads_attrs.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-mn-rMN\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-en-rGB\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fi\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-el\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-vi\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-et-rEE\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-en-rIN\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hi\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zu\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ko\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sw\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_icon_light.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\maps_attrs.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fr\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fr-rCA\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-am\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rCN\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sk\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sl\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-th\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ca\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ka-rGE\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sr\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-tr\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ro\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\README.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lv\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pl\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-km-rKH\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ms-rMY\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-de\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-it\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-in\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-iw\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-tl\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es-rUS\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hu\strings.xml" />
+ <Reference Include="OpenIAB_W8Plugin">
+ <HintPath>Assets\Plugins\OpenIAB_W8Plugin.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
